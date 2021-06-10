@@ -8,8 +8,8 @@
     "dev": "nodemon server.js",
     "serve": "node server.js",
     "development": "mix",
-    "watch": "npx mix watch",
-    "production: "npx mix --prod"
+    "watch": "npx mix watch"
+    
   },
   "dependencies": {
     "axios": "^0.21.1",

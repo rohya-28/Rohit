@@ -4,12 +4,12 @@
   "description": "this our realtime app",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
+ "scripts": {
     "dev": "nodemon server.js",
     "serve": "node server.js",
     "development": "mix",
     "watch": "npx mix watch",
-    "production:"npx mix --prod"
+    "production": "npx mix --production"
   },
   "dependencies": {
     "axios": "^0.21.1",

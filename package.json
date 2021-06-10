@@ -4,7 +4,7 @@
   "description": "this our realtime app",
   "main": "index.js",
   "license": "MIT",
- "scripts": {
+ "start": {
     "dev": "nodemon server.js",
     "serve": "node server.js",
     "development": "mix",

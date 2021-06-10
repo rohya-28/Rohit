@@ -9,7 +9,7 @@
     "serve": "node server.js",
     "development": "mix",
     "watch": "npx mix watch",
-    "heroku-postbuild": "npx mix --production && node server.js"
+    "production: "npx mix --prod"
   },
   "dependencies": {
     "axios": "^0.21.1",

@@ -19,7 +19,7 @@ const admin = require('../App/Http/middlewares/admin');
 
 function initRoutes(app) {
    
-    app.get('/',homecontroller().index);
+    app.get('',homecontroller().index);
 
      app.get('/items',list().index);
 
